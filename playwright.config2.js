@@ -80,7 +80,7 @@
 //   // },
 // });
 
-const config = ({
+config = ({
   testDir: './tests',
   reporter: 'html',
   timeout: 30000,

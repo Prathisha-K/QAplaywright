@@ -82,7 +82,7 @@
 
 const config = ({
   testDir: './tests',
-  retries :1, //it will retry the failed test once, if we set it to 2 it will retry the failed test twice, if we set it to 0 it will not retry the failed test
+  //retries :1, //it will retry the failed test once, if we set it to 2 it will retry the failed test twice, if we set it to 0 it will not retry the failed test
   reporter: 'html',
   timeout: 30000,
   use: {
