@@ -10,7 +10,7 @@ export default defineConfig(
     exposeNetwork: '<loopback>',
     connectTimeout: 3 * 60 * 1000, // 3 minutes
     os: ServiceOS.LINUX,
-    useGitHubOIDC: tru
+    useGitHubOIDC: true
     //credential: new DefaultAzureCredential(),
   }),
   {
